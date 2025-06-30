@@ -54,13 +54,14 @@
 
 .indicator {
   background: white;
-  height: 0.5rem;
-  width: 0.5rem;
-  box-shadow: 0px 0px 8px 4px #555;
+  height: 12px;
+  width: 24px;
+  box-shadow: 0px 0px 2px 0px #d3d3d3;
   margin: 0 0.2rem;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 40px;
 }
 .indicator-inactive {
-  background: grey;
+  background: transparent;
+  border: 2px solid white;
 }
